@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Krimeet\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Krimeet\\.nuget\\packages"
+    ]
+  }
+}
