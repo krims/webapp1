@@ -50,6 +50,7 @@ namespace XUnitTestProject1
             var controller = new WeatherForecastController(_serviceProvider.GetService<IWeatherForecastService>());
 
             //create a forecast
+            // What is this random?
             var rng = new Random();
             var forecast = new WeatherForecastModel
             {
@@ -60,6 +61,7 @@ namespace XUnitTestProject1
             };
 
             //add to in mem db
+            // how does this work?
             controller.addWeatherForecast(forecast);
 
             //make sure we get it back

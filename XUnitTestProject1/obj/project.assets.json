@@ -7011,19 +7011,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Krimeet\\.nuget\\packages\\": {}
+    "C:\\Users\\jennc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Krimeet\\source\\repos\\WebApplication1\\XUnitTestProject1\\XUnitTestProject1.csproj",
+      "projectUniqueName": "C:\\Users\\jennc\\source\\repos\\webapp1\\XUnitTestProject1\\XUnitTestProject1.csproj",
       "projectName": "XUnitTestProject1",
-      "projectPath": "C:\\Users\\Krimeet\\source\\repos\\WebApplication1\\XUnitTestProject1\\XUnitTestProject1.csproj",
-      "packagesPath": "C:\\Users\\Krimeet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Krimeet\\source\\repos\\WebApplication1\\XUnitTestProject1\\obj\\",
+      "projectPath": "C:\\Users\\jennc\\source\\repos\\webapp1\\XUnitTestProject1\\XUnitTestProject1.csproj",
+      "packagesPath": "C:\\Users\\jennc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jennc\\source\\repos\\webapp1\\XUnitTestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Krimeet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jennc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7035,9 +7035,10 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Krimeet\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
-              "projectPath": "C:\\Users\\Krimeet\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj"
+            "C:\\Users\\jennc\\source\\repos\\webapp1\\WebApplication1\\WebApplication1.csproj": {
+              "projectPath": "C:\\Users\\jennc\\source\\repos\\webapp1\\WebApplication1\\WebApplication1.csproj"
             }
           }
         }
@@ -7050,6 +7051,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -7079,14 +7081,11 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
